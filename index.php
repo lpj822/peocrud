@@ -9,6 +9,6 @@ function dd($value) {
     die();
 }
 
-dd($_SERVER['REQUEST_URI']);
+//dd($_SERVER['REQUEST_URI']);
 
 require ('views/index.view.php');
