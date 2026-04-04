@@ -1,6 +1,6 @@
 <?php
 /**
- * About page.
+ * About page controller.
  *
  * @author : Lahiru Jayakody
  * Project : PEO PHP CRUD

@@ -1,6 +1,6 @@
 <?php
 /**
- * Landing page.
+ * Landing page controller.
  *
  * @author : Lahiru Jayakody
  * Project : PEO PHP CRUD
