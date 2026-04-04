@@ -6,8 +6,6 @@
  * Project : PEO PHP CRUD
  */
 
-require ('functions.php');
-
 $heading = "About us";
 
-require ('views/about.view.php');
+require('views/about.view.php');

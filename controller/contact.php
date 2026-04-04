@@ -6,8 +6,6 @@
  * Project : PEO PHP CRUD
  */
 
-require ('functions.php');
-
 $heading = "Contact us";
 
-require ('views/contact.view.php');
+require('views/contact.view.php');
