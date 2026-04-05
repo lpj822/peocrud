@@ -11,17 +11,17 @@ require('functions.php');
 //require ('router.php');
 
 
-// Testing :  Connect to MySql database
+// Checkpoint-2 :  Create a class for DB operations
 
 $dsn = "mysql:host=localhost;dbname=peo_blog;charset=utf8mb4";
 
 $pdo = new PDO($dsn, "root", "root");
 
-$query = $pdo->prepare("select * from `post`");
+$statement= $pdo->prepare("select * from `post`");
 
-$query->execute();
+$statement->execute();
 
-$posts = $query->fetchAll(PDO::FETCH_ASSOC);
+$posts = $statement->fetchAll(PDO::FETCH_ASSOC);
 dd($posts);
 
 
